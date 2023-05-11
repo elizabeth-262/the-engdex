@@ -17,6 +17,9 @@
     font-size: 35px;
     text-align: left;
   }
+  b {
+    font-size: 25px;
+  }
   .desc {
     max-width: 40rem;
     line-height: 2.4rem;
@@ -49,12 +52,11 @@
   nav li a:hover {
     color: #ff9973;
   }
-
 .footer {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding-top: 0rem;
+    padding-top: 2.2rem;
 }
 .footer p {
     font-size: 20px;
