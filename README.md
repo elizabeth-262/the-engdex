@@ -1,2 +1,2 @@
 # The Engdex
-An online resource providing students with reliable and honest information about education and careers in engineering . 
+An online resource providing students with reliable information about engineering disciplines.
