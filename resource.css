@@ -1,56 +1,104 @@
-
-/* Title, Nav Bar */
+/* Text Font (Founders Grotesk) */
 @font-face {
     font-family: 'textfont';
     src: url('textfont.otf');
   } 
-  .title {
-    margin-top: 2rem;
-    font-family: 'textfont';
-    text-align: center;
-    font-size: 41px;
-    text-decoration: none;
-    color: #000000;
-  }
-  p {
-    padding: 40px;
-    font-family:'textfont';
-    font-size: 50px;
-    text-align: left;
-  }
-  .header{
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    padding: 0;
+/* The Engdex Nav Font */
+@font-face {
+  font-family: 'logofont';
+  src: url('logofont.otf');
 }
-  nav ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    display: flex;
-    font-family: 'textfont';
-    margin-top: 2rem;
-  }
-  
-  nav li {
-    margin-left: 20px;
-  }
-  
-  nav li a {
-    color:#000000;
-    text-decoration: none;
-    font-size: 20px;
-  }
-  
-  nav li a:hover {
-    color:#e3caac;;
-  }
-
+/* Insp Font */
+@font-face {
+  font-family: 'creato-display';
+  src: url(creato-display.otf);
+}
+/* Insp + Nav + Title */
+.title {
+  margin-top: 2rem;
+  font-family: 'logofont';
+  text-align: center;
+  font-size: 50px;
+  text-decoration: none;
+  color: #000000;
+  margin-right: 20px;
+  margin-left: -8.125rem;
+}
+p {
+  margin-top: 65px;
+  padding: 40px;
+  font-family:'textfont';
+  font-size: 50px;
+  text-align: left;
+}
+.desc {
+  max-width: 52rem;
+  line-height: 4rem;
+  font-family: 'creato-display';
+  margin-bottom: 1rem;
+}
+.container {
+  display: flex;
+}
+.header{
+  display: flex;
+  align-items: center;
+  justify-content: left;
+  padding: 0;
+  margin-right: 0rem;
+  flex: 1;
+}
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  font-family: 'textfont';
+  margin-top: 3rem;
+}
+nav li {
+  margin-left: 20px;
+} 
+nav li a {
+  color:#000000;
+  text-decoration: none;
+  font-size: 20px;
+}
+nav li a:hover {
+  color: #e3caac;;
+}
+button {
+  background-color: #FAF6EB;
+  color: black;
+  border-radius: 10em;
+  font-size: 18px;
+  font-weight: 600;
+  padding: 1em 2em;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+  border: 1px solid black;
+  box-shadow: 0 0 0 0 black;
+  margin-top: 2.2rem;
+  margin-right: -6.125rem;
+  flex: 0;
+}
+button a {
+  text-decoration: none;
+  color: black;
+  font-family: 'textfont';
+  font-size: 20px;
+}
+button:hover {
+  transform: translateY(-4px) translateX(-2px);
+  box-shadow: 2px 5px 0 0 black;
+}
+button:active {
+  transform: translateY(2px) translateX(1px);
+  box-shadow: 0 0 0 0 black;
+}
 h2 {
     font-family:'textfont';
 }
-
 /* Post */
 .container {
     max-width: 1068px;
@@ -67,7 +115,7 @@ section {
     grid-template-columns: repeat(auto-fit, minmax(280px,auto));
 }
 .post-box {
-    background-color: #e3caac;
+    background-color: rgb(252, 188, 139);
     box-shadow: 0 4px 14px hsla(355deg 25% 15% / 10%);
     padding: 15px;
     border-radius: 0.5rem;

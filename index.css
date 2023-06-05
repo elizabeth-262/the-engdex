@@ -1,65 +1,125 @@
+/* Text Font (Founders Grotesk) */
 @font-face {
     font-family: 'textfont';
     src: url('textfont.otf');
   } 
-  .title {
-    margin-top: 2rem;
-    font-family: 'textfont';
-    text-align: center;
-    font-size: 41px;
-    text-decoration: none;
-    color: #000000;
-  }
-  p {
-    margin-top: 65px;
-    padding: 40px;
-    font-family:'textfont';
-    font-size: 35px;
-    text-align: left;
-  }
-  .desc {
-    max-width: 52rem;
-    line-height: 2.9rem;
-  }
-.header{
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    padding: 0;
+/* The Engdex Nav Font */
+@font-face {
+  font-family: 'logofont';
+  src: url('logofont.otf');
 }
-  nav ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    display: flex;
-    font-family: 'textfont';
-    margin-top: 2rem;
-  }
-  
-  nav li {
-    margin-left: 20px;
-  }
-  
-  nav li a {
-    color:#000000;
-    text-decoration: none;
-    font-size: 20px;
-  }
-
-  nav li a:hover {
-    color: #e3caac;;
-  }
-
+/* Insp Font */
+@font-face {
+  font-family: 'creato-display';
+  src: url(creato-display.otf);
+}
+/* Insp + Nav + Title */
+.title {
+  margin-top: 2rem;
+  font-family: 'logofont';
+  text-align: center;
+  font-size: 50px;
+  text-decoration: none;
+  color: #000000;
+  margin-right: 20px;
+  margin-left: 3rem;
+}
+p {
+  margin-top: 6rem;
+  padding: 40px;
+  font-family:'textfont';
+  font-size: 50px;
+  text-align: left;
+}
+.desc {
+  max-width: 52rem;
+  line-height: 4rem;
+  font-family: 'creato-display';
+  margin-bottom: 1rem;
+}
+.container {
+  display: flex;
+}
+.header{
+  display: flex;
+  align-items: center;
+  justify-content: left;
+  padding: 0;
+  margin-right: 0rem;
+  flex: 1;
+}
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  font-family: 'textfont';
+  margin-top: 3rem;
+}
+nav li {
+  margin-left: 20px;
+} 
+nav li a {
+  color:#000000;
+  text-decoration: none;
+  font-size: 20px;
+}
+nav li a:hover {
+  color: #e3caac;;
+}
+button {
+  background-color: #FAF6EB;
+  color: black;
+  border-radius: 10em;
+  font-size: 18px;
+  font-weight: 600;
+  padding: 1em 2em;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+  border: 1px solid black;
+  box-shadow: 0 0 0 0 black;
+  margin-top: 2.2rem;
+  margin-right: 5rem;
+  flex: 0;
+}
+button a {
+  text-decoration: none;
+  color: black;
+  font-family: 'textfont';
+  font-size: 20px;
+}
+button:hover {
+  transform: translateY(-4px) translateX(-2px);
+  box-shadow: 2px 5px 0 0 black;
+}
+button:active {
+  transform: translateY(2px) translateX(1px);
+  box-shadow: 0 0 0 0 black;
+}
+.resource-button {
+  margin-left: 2rem;
+  margin-top: -6rem;
+  background-color: #b4f0ad;
+  font-family: 'textfont';
+  font-size: 20px;
+  text-decoration: none;
+}
+.about-button {
+  background-color: rgb(253, 200, 136);
+  margin-left: -4rem;
+  margin-top: -4rem;
+}
+/* Footer */
 .footer {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding-top: 0px;
+    padding-top: 2rem;
 }
 .footer p {
-    font-size: 20px;
-    margin-left: 20px;
+  font-size: 20px;
+  margin-left: 70rem;
 }
 h2 {
-    font-family:'textfont';
+  font-family:'textfont';
 }
