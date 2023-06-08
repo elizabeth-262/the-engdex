@@ -161,11 +161,18 @@ h2 {
   margin-left: -1.4rem;
   margin-top: -1rem;
 }
-.feature-img {
+.matthewtran-img {
   max-height: 550px;
   max-width: 23.5rem;
   flex: 1;
   margin-bottom: -1rem;
+  border-radius: 25px;
+}
+.adrianvivar-img {
+  max-height: 450px;
+  max-width: 21rem;
+  flex: 1;
+  margin-bottom: 3rem;
   border-radius: 25px;
 }
 .intro {
