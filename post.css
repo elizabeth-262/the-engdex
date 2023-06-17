@@ -161,6 +161,7 @@ h2 {
   margin-left: -1.4rem;
   margin-top: -1rem;
 }
+/* Pictures */
 .matthewtran-img {
   max-height: 550px;
   max-width: 23.5rem;
@@ -175,10 +176,16 @@ h2 {
   margin-bottom: 3rem;
   border-radius: 25px;
 }
+.georgiosgiotis-img {
+  max-height: 450px;
+  max-width: 20rem;
+  flex: 1;
+  margin-top: 3.5rem;
+  border-radius: 25px;
+}
 .intro {
   display: flex;
 }
-
 /* Container */
 .feature-socials {
   font-family: 'creato-display';
